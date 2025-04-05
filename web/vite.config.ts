@@ -32,5 +32,6 @@ export default defineConfig({
       outputOriginal: true
     }),
     i18nextLoader({ paths: ['./locales'], namespaceResolution: 'relativePath' })
-  ]
+  ],
+  base: '/openinframap/' // https://vite.dev/guide/static-deploy#github-pages
 })
