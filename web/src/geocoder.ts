@@ -79,9 +79,7 @@ export default class OpenInfraMapGeocoder implements IControl {
         latLonSearchPlugin(map),
         OpenCageGeoSearchPlugin(
           {
-            // This key only works on openinframap.org (and local dev).
-            // Thanks to OpenCage for sponsoring!
-            key: 'oc_gs_a595f2059dee41d6b7073647aec5c303',
+            key: 'oc_gs_3f87b1a868984ee19fd37ab82a87ad63',
             language: i18next.language
           },
           {
