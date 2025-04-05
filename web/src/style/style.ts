@@ -68,6 +68,11 @@ const style: StyleSpecification = {
       attribution:
         '<a href="https://ladsweb.modaps.eosdis.nasa.gov/missions-and-measurements/products/VNP46A4/">NASA Black Marble 2023</a>'
     },
+    satellite: {
+      type: 'raster',
+      tiles: ['https://api.maptiler.com/tiles/satellite-v2/{z}/{x}/{y}.jpg?key=iG31hHzqPDdOfM8MmYsP'],
+      maxzoom: 22
+    },
     power: {
       type: 'vector',
       tiles: ['https://openinframap.org/map/power/{z}/{x}/{y}.pbf'],

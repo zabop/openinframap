@@ -641,7 +641,8 @@ const layers: LayerSpecificationWithZIndex[] = [
     id: 'black_marble',
     type: 'raster',
     source: 'blackmarble'
-  }
+  },
+  { id: 'satellite', type: 'raster', source: 'satellite' }
 ]
 
 export default layers
