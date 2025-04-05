@@ -116,7 +116,7 @@ const style: StyleSpecification = {
       minzoom: 11
     }
   },
-  glyphs: '/fonts/{fontstack}/{range}.pbf',
+  glyphs: `${import.meta.env.BASE_URL}fonts/{fontstack}/{range}.pbf`,
   layers: []
 }
 
